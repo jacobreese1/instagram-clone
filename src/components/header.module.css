@@ -1,1 +1,7 @@
 @import "../design/css-variables.module.css";
+
+.lexicalLogo {
+  height: 29px;
+  width: 103px;
+  margin: 15px;
+}
