@@ -7,7 +7,7 @@
   border-bottom: 1px solid var(--color-gray-light-2);
   display: grid;
   grid-template-columns: repeat(3, 150px);
-  gap: 200px;
+  gap: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -23,21 +23,22 @@
   grid-template-columns: repeat(6, 25px);
   gap: 25px;
   position: relative;
-  left: -75px;
+  left: -150px;
 }
 
 .searchBarInput {
-  height: 36px;
-  width: 268px;
+  height: 40px;
+  width: 275px;
   position: relative;
   display: flex;
   justify-content: center;
   align-content: center;
   left: -50%;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   background-color: var(--color-gray-light-1);
-  text-align: center;
+  text-align: left;
+  text-indent: 50px;
   font-size: 18px;
   color: var(--color-gray-dark-1);
   padding: 0px;
