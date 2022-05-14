@@ -1,7 +1,52 @@
 @import "../design/css-variables.module.css";
 
+.header {
+  height: 60px;
+  width: 100vw;
+  background-color: var(--color-primary);
+  border-bottom: 1px solid var(--color-gray-light-2);
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
 .lexicalLogo {
   height: 29px;
   width: 103px;
   margin: 15px;
+}
+
+.headerSVGs {
+  display: grid;
+  grid-template-columns: repeat(6, 25px);
+  gap: 25px;
+  position: relative;
+  left: -75px;
+}
+
+.searchBarInput {
+  height: 36px;
+  width: 268px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  left: -50%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-gray-light-1);
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-gray-dark-1);
+  padding: 0px;
+  top: -10px;
+}
+
+.searchSVG {
+  position: relative;
+  top: 20px;
+  z-index: 100;
+  left: -125px;
 }

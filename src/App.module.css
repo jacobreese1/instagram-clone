@@ -1,0 +1,7 @@
+@import "./design/css-variables.module.css";
+
+.App {
+  text-align: center;
+  background-color: var(--color-secondary);
+  height: 1000px;
+}
