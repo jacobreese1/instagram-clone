@@ -9,28 +9,46 @@ import profileButton from "../design/images/svgs/circle.svg";
 import searchSVG from "../design/images/svgs/search_light.svg";
 
 const Header = () => {
+  // const searchPH =
+  //   <img className={styles.searchSVG} src={searchSVG} /> + " Search";
+
   return (
     <div className={styles.header}>
       <div>
-        <img className={styles.lexicalLogo} alt="Instagram" src={logo} />
+        <a href="#">
+          <img className={styles.lexicalLogo} alt="Instagram" src={logo} />
+        </a>
       </div>
       <div>
-        <img className={styles.searchSVG} src={searchSVG} />
         <form>
+          <img className={styles.searchSVG} src={searchSVG} />
           <input
             type="text"
+            // placeholder={searchPH}
             placeholder="Search"
             className={styles.searchBarInput}
           />
         </form>
       </div>
       <div className={styles.headerSVGs}>
-        <img src={homeButton} />
-        <img src={messengerButton} />
-        <img src={addContentButton} />
-        <img src={discoverButton} />
-        <img src={likedButton} />
-        <img src={profileButton} />
+        <a href="home">
+          <img src={homeButton} alt="home" />
+        </a>
+        <a href="messenger">
+          <img src={messengerButton} />
+        </a>
+        <a href="add-content">
+          <img src={addContentButton} />
+        </a>
+        <a href="discover">
+          <img src={discoverButton} />
+        </a>
+        <a href="liked">
+          <img src={likedButton} />
+        </a>
+        <a href="profile">
+          <img src={profileButton} />
+        </a>
       </div>
     </div>
   );
